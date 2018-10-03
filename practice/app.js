@@ -26,6 +26,7 @@ getPuzzle('2')
 3. Change getCountry usage to use catch
 */
 
+//Async await challenge - convert getCountry to use async await instead of then to chain together promises
 getCountry('CA')
   .then(country => {
     console.log(country.name);
